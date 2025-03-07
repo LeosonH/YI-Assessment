@@ -9,7 +9,7 @@ yi-assessment
 ├── teacher_registration
 ├── teacher_submissions
 ```
-Access to the BigQuery project has been given to the relevant parties.
+Access to the [BigQuery project](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1syi-assessment!2syi_assessment) has been given to the relevant parties.
 
 The ```data_model``` table is where the final data_model lives. It is created using the BigQuery SQL code applied to the original teacher_registration and teacher_submissions data files. This code is [**data_model.sql**](https://github.com/LeosonH/YI-Assessment/blob/main/data_model.sql). The code first deduplicates the teacher registrations, and then extracts the relevant JSON fields from both datasets before aggregating the data into a school-week long format.
 
