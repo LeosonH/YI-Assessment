@@ -9,3 +9,4 @@ yi-assessment
 ├── teacher_registration
 ├── teacher_submissions
 ```
+The ```data_model``` table is where the final data_model lives. It is created using the BigQuery SQL code applied to the original teacher_registration and teacher_submissions data files. This code is [**data_model.sql**](https://github.com/LeosonH/YI-Assessment/blob/main/data_model.sql).
